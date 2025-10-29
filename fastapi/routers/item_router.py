@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
-from models.magic_item_model import MagicItem
-from base_models import MagicItemBase
+from models.item_model import Item
+from base_models import ItemBase
 from sqlalchemy.orm import Session
 from starlette import status
 from db import get_db
@@ -19,19 +19,10 @@ def create_magic_item():
 def get_magic_items(search:str="",page:int=1,limit:int=10):
     return {}
 
-@router.patch("/")
-def add_magic_item():
+@router.get("/{item_id}")
+def get_magic_item_details(item_id:int):
     return {}
-#todo get var from link without query param
 
-
-
-"""
-@router.get("/")
-def get_(search:str="",page:int=1,limit:int=10):
+@router.patch("/{item_id}")
+def update_magic_item(item_id:int, count_add:int=0, price:int=0, details:str="", bot_count_add:int=0, top_count_add:int=0):
     return {}
-    
-@router.patch("/")
-def add_():
-    return {}
-"""

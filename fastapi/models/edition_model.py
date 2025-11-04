@@ -1,9 +1,9 @@
-from sqlalchemy import Column, ForeignKey, Integer, String, Date
+from sqlalchemy import Column, Integer, String, Date
 from db import Base
 
-class Editions(Base):
-    __tablename__ = "editions"
+class Edition(Base):
+    __tablename__ = "edition"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
-    release_date = Column(Date)
+    release_date = Column(Date) #* must respect YYYY-MM-DD hh:mm (doubt on MM-DD || DD-MM)

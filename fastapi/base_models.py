@@ -1,5 +1,6 @@
 from datetime import datetime
 from pydantic import BaseModel
+from typing import Optional
 
 class EditionBase(BaseModel):
     name:str
@@ -9,11 +10,12 @@ class ItemBase(BaseModel):
     name:str
     details:str
     type : str
-    edition:EditionBase
+    edition:int
     image:str
     count:int = 0
+    price:int = 0
     variant:str
     element:str
     swapper:bool
-    bot_count:int | None
-    top_count:int | None
+    top_count:Optional[int] = None
+    bot_count:Optional[int] = None

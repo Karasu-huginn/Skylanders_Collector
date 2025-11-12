@@ -36,7 +36,7 @@ def get_items(db: db_dep, search:str="", variant:str="", is_captured:bool=False,
     if search:
         filters.append(Item.name.ilike("%"+search+"%"))
     if variant:
-        filters.append(Item.variant.ilike("%"+variant+"%"))
+        filters.append(Item.variant.ilike("%"+variant+"%")) #todo transfer to DB's variant
     if is_captured:
         filters.append(Item.count > 0) #! won't work for swappers, complete when testable with front
     if is_uncaptured:
@@ -44,9 +44,9 @@ def get_items(db: db_dep, search:str="", variant:str="", is_captured:bool=False,
     if is_duplicate:
         filters.append(Item.count > 1) #! won't work for swappers, complete when testable with front
     if item_type:
-        filters.append(Item.type.ilike("%"+item_type+"%"))
+        filters.append(Item.type.ilike("%"+item_type+"%")) #todo transfer to DB's variant
     if element:
-        filters.append(Item.element.ilike("%"+element+"%"))
+        filters.append(Item.element.ilike("%"+element+"%")) #todo transfer to DB's variant
     if filters:
         query = db.query(Item).filter(and_(*filters))
     return query.offset((page-1)*limit).limit(limit).all()

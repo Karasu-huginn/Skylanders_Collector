@@ -30,26 +30,20 @@ def create_item(db: db_dep, item_base:ItemBase):
     db.commit()
     return {"status":201, "details":"Resource created"}
 
-@router.get("/")
-def get_items(db: db_dep, search:str="", variant:str="", is_captured:bool=False, is_uncaptured:bool=False, is_duplicate:bool=False, item_type:str="", element:str="", page:int=1,limit:int=10):
+@router.get("")
+def get_items(db: db_dep, search:str="", is_captured:bool=False, is_uncaptured:bool=False, is_duplicate:bool=False, page:int=1,limit:int=10):
     filters = []
     if search:
-        filters.append(Item.name.ilike("%"+search+"%"))
-    if variant:
-        filters.append(Item.variant.ilike("%"+variant+"%")) #todo transfer to DB's variant
+        filters.append(Item.name.ilike("%"+search+"%")) #? ternary operator ? search_filter = Item.name.ilike OR nothing
     if is_captured:
         filters.append(Item.count > 0) #! won't work for swappers, complete when testable with front
     if is_uncaptured:
         filters.append(Item.count == 0) #! won't work for swappers, complete when testable with front
     if is_duplicate:
         filters.append(Item.count > 1) #! won't work for swappers, complete when testable with front
-    if item_type:
-        filters.append(Item.type.ilike("%"+item_type+"%")) #todo transfer to DB's variant
-    if element:
-        filters.append(Item.element.ilike("%"+element+"%")) #todo transfer to DB's variant
     if filters:
-        query = db.query(Item).filter(and_(*filters))
-    return query.offset((page-1)*limit).limit(limit).all()
+        query = db.query(Item).filter(and_(*filters))   #todo refactor, useless for an else if
+    return {"items": query.offset((page-1)*limit).limit(limit).all()}
 
 @router.get("/{item_id}")
 def get_item_details(db: db_dep, item_id:int):

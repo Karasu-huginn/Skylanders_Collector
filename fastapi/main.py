@@ -17,7 +17,7 @@ app.include_router(element_router.router)
 app.include_router(item_router.router)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5174","http://localhost:5173"],    #todo change after deployment
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

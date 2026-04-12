@@ -66,6 +66,12 @@ The WordPress REST API at `skylanderscharacterlist.com/wp-json/wp/v2/`.
 
 **Variant detection:** Posts with category ID 78 are variants. The specific variant name (Legendary, Chrome, Dark, etc.) is parsed from the "Variant Type" field in the post's HTML content table.
 
+**Types not directly in WP categories:**
+- **Vehicle** and **Traptanium Crystal Trap** — these don't have dedicated WP category IDs. The scraper identifies them from the HTML content: vehicles have a "Type: Vehicle" or similar field, and traptanium traps are identifiable by name patterns or content fields. If a post matches no known type category, the scraper falls back to parsing the "Series" field from the HTML Basic Info table.
+- **Villain Sensei** — the website groups these under the general Sensei category (277). The scraper distinguishes them by checking if the post's content or title indicates a villain (e.g., "Villain" in the name or a "Villain Sensei" designation in the HTML).
+
+**Deduplication:** A post may be tagged with multiple edition categories. The scraper tracks processed post IDs and skips duplicates. Each post is assigned to the edition it was first encountered in.
+
 ## Phase 1: Scraper (`scraper.py`)
 
 ### Process
@@ -75,7 +81,7 @@ The WordPress REST API at `skylanderscharacterlist.com/wp-json/wp/v2/`.
 2. **For each edition**, fetch all posts via `/wp-json/wp/v2/posts?categories={edition_cat_id}&page=N`, paginating 4 at a time until the API returns 400.
 
 3. **For each post**, extract:
-   - **name:** from `title.rendered`, appending series info like "(Series 2)" when applicable
+   - **name:** from `title.rendered`, always appending series info for core characters — "(Series 1)", "(Series 2)", etc.
    - **edition:** from which edition category is present
    - **element:** from element category — `null` if none found
    - **type:** mapped from category using the type mapping table above
@@ -83,7 +89,7 @@ The WordPress REST API at `skylanderscharacterlist.com/wp-json/wp/v2/`.
    - **swapper:** `true` if type is "Swapper" (category 67)
    - **image_url:** resolve `featured_media` ID via `/wp-json/wp/v2/media/{id}` to get the source URL
 
-4. **Download images** to `react/public/assets/{EDITION_CODE}/{ImageName}.png`, following the existing naming convention (PascalCase, no spaces).
+4. **Download images** to `react/public/assets/{EDITION_CODE}/{ImageName}.png`. Image filenames are derived from the download URL (e.g., `Spyro1.png`, `TreeRex.png`). Hyphens and existing casing are preserved as-is.
 
 5. **Output** `skylanders_data.json`.
 
@@ -148,7 +154,7 @@ Two minor changes to support element-less figures:
 
 ## New Lookup Table Entries
 
-**Types to add:** Trap Master, SuperCharger, LightCore, Eon's Elite, Creation Crystal, Magic Item, Adventure Pack, Battle Pack, Level, Battlecast
+**Types to add:** Trap Master, SuperCharger, LightCore, Eon's Elite, Creation Crystal, Magic Item, Adventure Pack, Battle Pack, Level, Battlecast, Vehicle, Traptanium Crystal Trap (already exists but retained), Villain Sensei (already exists but retained)
 
 **Elements to add:** Dark
 

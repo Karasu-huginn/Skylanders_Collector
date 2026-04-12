@@ -1,86 +1,112 @@
+import json
 import requests
 
-DB_URL = "http://localhost:8000/api"
+DB_URL = "http://localhost:8001/api"
 
 
-def add_editions():
-    editions = [
-        {"name": "Spyro's Adventures", "release_date": "2011-10-12"},
-        {"name": "Giants", "release_date": "2012-10-17"},
-        {"name": "Trap Team", "release_date": "2014-10-05"},
-        {"name": "Swap Force", "release_date": "2013-10-13"},
-        {"name": "Super Chargers", "release_date": "2015-09-20"},
-        {"name": "Imaginators", "release_date": "2016-10-13"},
-    ]
-    for edition in editions:
-        res = requests.post(DB_URL + "/editions/", json=edition)
-        print(res.text)
+def load_data():
+    with open("skylanders_data.json", "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def add_elements():
-    element_names = ["Magic", "Earth", "Water", "Fire", "Tech", "Undead", "Air", "Life"]
-    for element_name in element_names:
-        res = requests.post(DB_URL + "/elements/", json={"name": element_name})
-        print(res.text)
+def create_lookup(endpoint, items):
+    """POST each entry, then GET all to build a name->id map."""
+    name_to_id = {}
+
+    # Get existing entries first
+    resp = requests.get(f"{DB_URL}/{endpoint}/")
+    if resp.status_code == 200:
+        for entry in resp.json():
+            name_to_id[entry["name"]] = entry["id"]
+
+    # Create missing entries
+    for item in items:
+        if item["name"] in name_to_id:
+            print(f"  {endpoint}: '{item['name']}' already exists (id={name_to_id[item['name']]})")
+            continue
+        resp = requests.post(f"{DB_URL}/{endpoint}/", json=item)
+        if resp.status_code == 201:
+            print(f"  {endpoint}: created '{item['name']}'")
+        else:
+            print(f"  {endpoint}: FAILED '{item['name']}': {resp.text}")
+
+    # Refresh map after all inserts
+    resp = requests.get(f"{DB_URL}/{endpoint}/")
+    if resp.status_code == 200:
+        name_to_id = {}
+        for entry in resp.json():
+            name_to_id[entry["name"]] = entry["id"]
+
+    return name_to_id
 
 
-def add_types():
-    type_names = [
-        "Skylander",
-        "Giant",
-        "Traptanium Crystal Trap",
-        "Swapper",
-        "Vehicle",
-        "Sensei",
-        "Villain Sensei",
-    ]
-    for type_name in type_names:
-        res = requests.post(DB_URL + "/types/", json={"name": type_name})
-        print(res.text)
+def import_items(items, edition_map, element_map, type_map, variant_map):
+    """POST each item to the API with resolved foreign key IDs."""
+    created = 0
+    failed = 0
+
+    for item in items:
+        edition_id = edition_map.get(item["edition"])
+        type_id = type_map.get(item["type"])
+        variant_id = variant_map.get(item["variant"])
+        element_id = element_map.get(item["element"]) if item["element"] else None
+
+        if not edition_id or not type_id or not variant_id:
+            print(f"  SKIP: {item['name']} — missing FK "
+                  f"(edition={edition_id}, type={type_id}, variant={variant_id})")
+            failed += 1
+            continue
+
+        payload = {
+            "name": item["name"],
+            "details": item["details"],
+            "type_id": type_id,
+            "edition_id": edition_id,
+            "image": item["image"] or "",
+            "variant_id": variant_id,
+            "swapper": item["swapper"],
+        }
+        if element_id is not None:
+            payload["element_id"] = element_id
+
+        resp = requests.post(f"{DB_URL}/items/", json=payload)
+        if resp.status_code == 201:
+            created += 1
+        else:
+            failed += 1
+            print(f"  FAILED: {item['name']}: {resp.text}")
+
+    return created, failed
 
 
-def add_skylanders():
-    skylanders = [
-        {"name": "Bash", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Bash.png", "element_id": 2, "variant_id": 1, "swapper": False},
-        {"name": "Boomer", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Boomer.png", "element_id": 5, "variant_id": 1, "swapper": False},
-        {"name": "Camo", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Camo.png", "element_id": 8, "variant_id": 1, "swapper": False},
-        {"name": "Chop Chop", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/ChopChop.png", "element_id": 6, "variant_id": 1, "swapper": False},
-        {"name": "Cynder", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Cynder.png", "element_id": 6, "variant_id": 1, "swapper": False},
-        {"name": "Dino-rang", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Dino-rang.png", "element_id": 2, "variant_id": 1, "swapper": False},
-        {"name": "Double Trouble", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/DoubleTrouble.png", "element_id": 1, "variant_id": 1, "swapper": False},
-        {"name": "Drill Sergeant", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/DrillSergeant.png", "element_id": 5, "variant_id": 1, "swapper": False},
-        {"name": "Drobot", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Drobot.png", "element_id": 5, "variant_id": 1, "swapper": False},
-        {"name": "Eruptor", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Eruptor.png", "element_id": 4, "variant_id": 1, "swapper": False},
-        {"name": "Flameslinger", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Flameslinger.png", "element_id": 4, "variant_id": 1, "swapper": False},
-        {"name": "Ghost Roaster", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/GhostRoaster.png", "element_id": 6, "variant_id": 1, "swapper": False},
-        {"name": "Gill Grunt", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/GillGrunt.png", "element_id": 3, "variant_id": 1, "swapper": False},
-        {"name": "Hex", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Hex.png", "element_id": 6, "variant_id": 1, "swapper": False},
-        {"name": "Ignitor", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Ignitor.png", "element_id": 4, "variant_id": 1, "swapper": False},
-        {"name": "Lightning Rod", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/LightningRod.png", "element_id": 7, "variant_id": 1, "swapper": False},
-        {"name": "Prism Break", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/PrismBreak.png", "element_id": 2, "variant_id": 1, "swapper": False},
-        {"name": "Slam Bam", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/SlamBam.png", "element_id": 3, "variant_id": 1, "swapper": False},
-        {"name": "Sonic Boom", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/SonicBoom.png", "element_id": 7, "variant_id": 1, "swapper": False},
-        {"name": "Spyro", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Spyro.png", "element_id": 1, "variant_id": 1, "swapper": False},
-        {"name": "Stealth Elf", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/StealthElf.png", "element_id": 8, "variant_id": 1, "swapper": False},
-        {"name": "Stump Smash", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/StumpSmash.png", "element_id": 8, "variant_id": 1, "swapper": False},
-        {"name": "Sunburn", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Sunburn.png", "element_id": 4, "variant_id": 1, "swapper": False},
-        {"name": "Terrafin", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Terrafin.png", "element_id": 2, "variant_id": 1, "swapper": False},
-        {"name": "Trigger Happy", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/TriggerHappy.png", "element_id": 5, "variant_id": 1, "swapper": False},
-        {"name": "Voodood", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Voodood.png", "element_id": 1, "variant_id": 1, "swapper": False},
-        {"name": "Warnado", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Warnado.png", "element_id": 7, "variant_id": 1, "swapper": False},
-        {"name": "Wham-Shell", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Wham-Shell.png", "element_id": 3, "variant_id": 1, "swapper": False},
-        {"name": "Whirlwind", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Whirlwind.png", "element_id": 7, "variant_id": 1, "swapper": False},
-        {"name": "Wrecking Ball", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/WreckingBall.png", "element_id": 1, "variant_id": 1, "swapper": False},
-        {"name": "Zap", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Zap.png", "element_id": 3, "variant_id": 1, "swapper": False},
-        {"name": "Zook", "details": "", "type_id": 1, "edition_id": 1, "image": "SSA/Zook.png", "element_id": 8, "variant_id": 1, "swapper": False},
-    ]
-    for skylander in skylanders:
-        res = requests.post(DB_URL + "/items/", json=skylander)
-        print(res.text)
+def main():
+    data = load_data()
+
+    print("Creating editions...")
+    edition_map = create_lookup("editions", data["editions"])
+    print(f"  {len(edition_map)} editions ready\n")
+
+    print("Creating elements...")
+    element_map = create_lookup("elements", data["elements"])
+    print(f"  {len(element_map)} elements ready\n")
+
+    print("Creating types...")
+    type_map = create_lookup("types", data["types"])
+    print(f"  {len(type_map)} types ready\n")
+
+    print("Creating variants...")
+    variant_map = create_lookup("variants", data["variants"])
+    print(f"  {len(variant_map)} variants ready\n")
+
+    print(f"Importing {len(data['items'])} items...")
+    created, failed = import_items(
+        data["items"], edition_map, element_map, type_map, variant_map
+    )
+
+    print(f"\n=== Summary ===")
+    print(f"Items created: {created}")
+    print(f"Items failed:  {failed}")
 
 
 if __name__ == "__main__":
-    add_editions()
-    add_elements()
-    add_types()
-    add_skylanders()
+    main()

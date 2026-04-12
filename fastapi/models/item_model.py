@@ -15,7 +15,7 @@ class Item(Base):
     count = Column(Integer, default=0)
     price = Column(Integer, default=0)
     variant_id = Column("variant", Integer, ForeignKey("variant.id"), index=True)
-    element_id = Column("element", Integer, ForeignKey("element.id"), index=True)
+    element_id = Column("element", Integer, ForeignKey("element.id"), index=True, nullable=True)
     swapper = Column(Boolean)
     bot_count = Column(Integer, nullable=True)
     top_count = Column(Integer, nullable=True)

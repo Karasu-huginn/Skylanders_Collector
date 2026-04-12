@@ -31,7 +31,7 @@ class ItemBase(BaseModel):
     count: int = 0
     price: int = 0
     variant_id: int
-    element_id: int
+    element_id: Optional[int] = None
     swapper: bool
     top_count: Optional[int] = None
     bot_count: Optional[int] = None
@@ -75,7 +75,7 @@ class ItemResponse(BaseModel):
     count: int
     price: int
     variant: VariantResponse
-    element: ElementResponse
+    element: Optional[ElementResponse] = None
     swapper: bool
     top_count: Optional[int]
     bot_count: Optional[int]

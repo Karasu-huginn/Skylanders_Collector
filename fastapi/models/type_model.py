@@ -1,8 +1,12 @@
-from sqlalchemy import Column, Integer, String, Date
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import relationship
 from db import Base
+
 
 class Type(Base):
     __tablename__ = "type"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, index=True)
+    name = Column(String, unique=True, index=True)
+
+    items = relationship("Item", back_populates="type")

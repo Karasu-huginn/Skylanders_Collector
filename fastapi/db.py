@@ -1,9 +1,13 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import DeclarativeBase, sessionmaker
 from sqlalchemy_utils import database_exists, create_database
-from sqlalchemy.ext.declarative import declarative_base
 from dotenv import load_dotenv
 import os
+
+
+class Base(DeclarativeBase):
+    pass
+
 
 def get_engine():
     load_dotenv()
@@ -18,10 +22,10 @@ def get_engine():
         create_database(db_url)
     return create_engine(db_url)
 
-engine=get_engine()
+
+engine = get_engine()
 SessionLocal = sessionmaker(autoflush=False, autocommit=False, bind=engine)
 
-Base = declarative_base()
 
 def get_db():
     db = SessionLocal()

@@ -135,7 +135,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+.env*
+!.env.example
 .envrc
 .venv
 env/
@@ -205,3 +206,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+types.txt
+Skylanders_Collector
+db_maker.py

@@ -1,8 +1,6 @@
-from typing import Annotated, List
-from fastapi import Depends, FastAPI, HTTPException, status
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy.orm import Session
-from db import get_db, engine, Base
+from db import engine, Base
 import routers.edition_router as edition_router
 import routers.item_router as item_router
 import routers.type_router as type_router
@@ -25,9 +23,3 @@ app.add_middleware(
 
 
 Base.metadata.create_all(bind=engine)
-db_dep = Annotated[Session, Depends(get_db)]
-
-#* FastAPI endpoints
-@app.get("/{item_id}")
-def root(item_id:int):
-    return {"var":item_id}

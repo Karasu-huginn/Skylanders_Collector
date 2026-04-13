@@ -1,0 +1,16 @@
+node_modules
+react/node_modules
+react/dist
+__pycache__
+*.pyc
+.git
+.github
+.claude
+.superpowers
+.env
+.env.*
+!.env.example
+docs
+*.md
+.venv
+.pytest_cache

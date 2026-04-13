@@ -1,3 +1,4 @@
+import html
 import json
 import os
 import time
@@ -55,6 +56,10 @@ SERIES_CATEGORIES = {3: "Series 1", 46: "Series 2"}
 
 VARIANT_CATEGORY_ID = 78
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
+
 
 # ── API helpers ────────────────────────────────────────────────────
 
@@ -66,8 +71,8 @@ def fetch_paginated(endpoint, params=None):
     while True:
         p = {**(params or {}), "page": page, "per_page": 100}
         time.sleep(DELAY)
-        resp = requests.get(f"{WP_API}/{endpoint}", params=p)
-        if resp.status_code == 400:
+        resp = requests.get(f"{WP_API}/{endpoint}", params=p, headers=HEADERS)
+        if resp.status_code in (400, 403):
             break
         resp.raise_for_status()
         data = resp.json()
@@ -83,7 +88,7 @@ def get_media_url(media_id):
     if not media_id:
         return None
     time.sleep(DELAY)
-    resp = requests.get(f"{WP_API}/media/{media_id}")
+    resp = requests.get(f"{WP_API}/media/{media_id}", headers=HEADERS)
     if resp.status_code != 200:
         return None
     return resp.json().get("source_url")
@@ -162,7 +167,7 @@ def is_villain_sensei(post_categories, html_info, name):
 
 def build_item_name(title, post_categories):
     """Build item name, appending '(Series N)' for core Skylander types."""
-    name = title.strip()
+    name = html.unescape(title).strip()
     for cat_id in post_categories:
         if cat_id in SERIES_CATEGORIES:
             series_label = SERIES_CATEGORIES[cat_id]
@@ -187,7 +192,7 @@ def download_image(url, edition_code):
         return f"{edition_code}/{filename}"
 
     time.sleep(DELAY)
-    resp = requests.get(url)
+    resp = requests.get(url, headers=HEADERS)
     if resp.status_code == 200:
         with open(file_path, "wb") as f:
             f.write(resp.content)

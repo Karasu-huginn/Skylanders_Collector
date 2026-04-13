@@ -1,0 +1,6514 @@
+{
+  "editions": [
+    {
+      "name": "Spyro's Adventures",
+      "release_date": "2011-10-12"
+    },
+    {
+      "name": "Giants",
+      "release_date": "2012-10-17"
+    },
+    {
+      "name": "Swap Force",
+      "release_date": "2013-10-13"
+    },
+    {
+      "name": "Trap Team",
+      "release_date": "2014-10-05"
+    },
+    {
+      "name": "Super Chargers",
+      "release_date": "2015-09-20"
+    },
+    {
+      "name": "Imaginators",
+      "release_date": "2016-10-13"
+    }
+  ],
+  "elements": [
+    {
+      "name": "Air"
+    },
+    {
+      "name": "Dark"
+    },
+    {
+      "name": "Earth"
+    },
+    {
+      "name": "Fire"
+    },
+    {
+      "name": "Life"
+    },
+    {
+      "name": "Magic"
+    },
+    {
+      "name": "Tech"
+    },
+    {
+      "name": "Undead"
+    },
+    {
+      "name": "Water"
+    }
+  ],
+  "types": [
+    {
+      "name": "Adventure Pack"
+    },
+    {
+      "name": "Battle Pack"
+    },
+    {
+      "name": "Creation Crystal"
+    },
+    {
+      "name": "Giant"
+    },
+    {
+      "name": "LightCore"
+    },
+    {
+      "name": "Magic Item"
+    },
+    {
+      "name": "Sensei"
+    },
+    {
+      "name": "Skylander"
+    },
+    {
+      "name": "SuperCharger"
+    },
+    {
+      "name": "Swapper"
+    },
+    {
+      "name": "Trap Master"
+    },
+    {
+      "name": "Vehicle"
+    }
+  ],
+  "variants": [
+    {
+      "name": "Chase"
+    },
+    {
+      "name": "In-Game"
+    },
+    {
+      "name": "In-Game*"
+    },
+    {
+      "name": "Standard"
+    },
+    {
+      "name": "Variant"
+    }
+  ],
+  "items": [
+    {
+      "name": "Red Camo",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/RedCamo.png",
+      "swapper": false
+    },
+    {
+      "name": "Crystal Clear Whirlwind",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/CrystalWhirlwind1.png",
+      "swapper": false
+    },
+    {
+      "name": "Winged Boots",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/WingedBoots.png",
+      "swapper": false
+    },
+    {
+      "name": "Volcanic Vault",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/VolcanicVault.png",
+      "swapper": false
+    },
+    {
+      "name": "Time Twister",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/TimeTwister.png",
+      "swapper": false
+    },
+    {
+      "name": "Sparx Dragonfly",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/SparxDragonfly.png",
+      "swapper": false
+    },
+    {
+      "name": "Sky-Iron Shield",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/SkyIronShield.png",
+      "swapper": false
+    },
+    {
+      "name": "Pirate Ship (Pirate Seas)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/PirateShip.png",
+      "swapper": false
+    },
+    {
+      "name": "Ice Cave (Empire of Ice)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/EmpireOfIce.png",
+      "swapper": false
+    },
+    {
+      "name": "Hidden Treasure",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/HiddenTreasure.png",
+      "swapper": false
+    },
+    {
+      "name": "Healing Elixir",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/HealingElixir1.png",
+      "swapper": false
+    },
+    {
+      "name": "Pirate Ghost Swords",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/GhostSwords.png",
+      "swapper": false
+    },
+    {
+      "name": "Dragon’s Peak",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/DragonsPeak.png",
+      "swapper": false
+    },
+    {
+      "name": "Darklight Crypt",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/DarklightCrypt.png",
+      "swapper": false
+    },
+    {
+      "name": "Anvil Rain",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/AnvilRain.png",
+      "swapper": false
+    },
+    {
+      "name": "Red Drill Sergeant (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/RedDrillSergeant.png",
+      "swapper": false
+    },
+    {
+      "name": "Pearl Hex (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/PearlHex.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Warnado (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GlowInTheDarkWarnado1.png",
+      "swapper": false
+    },
+    {
+      "name": "Flocked Stump Smash (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/FlockedStumpSmash.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Purple Cynder (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/MetallicPurpleCynder.png",
+      "swapper": false
+    },
+    {
+      "name": "Chrome Spyro (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/ChromeSpyro.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Spyro (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/DarkSpyro.png",
+      "swapper": false
+    },
+    {
+      "name": "Blue Bash (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/BlueBash.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Trigger Happy (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/LegendaryTriggerHappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Spyro (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/LegendarySpyro.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Chop Chop (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/LegendaryChopChop.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Bash (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/LegendaryBash.png",
+      "swapper": false
+    },
+    {
+      "name": "Crystal Clear Wham-Shell (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/CrystalWhamShell.png",
+      "swapper": false
+    },
+    {
+      "name": "Silver Eruptor (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/SilverEruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Flameslinger (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GoldFlameslinger.png",
+      "swapper": false
+    },
+    {
+      "name": "Crystal Clear Stealth Elf (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/CrystalStealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Silver Dino-Rang (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/SilverDinoRang.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Drill Sergeant (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GoldDrillSergeant.png",
+      "swapper": false
+    },
+    {
+      "name": "Silver Boomer (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/SilverBoomer.png",
+      "swapper": false
+    },
+    {
+      "name": "Crystal Clear Cynder (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/CrystalCynder.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Whisper Elf (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/SidekicksWhisperElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Chop Chop (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GoldChopChop.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Trigger Snappy (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/SidekicksTriggerSnappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Green Gill Grunt (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GreenGillGrunt.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Terrabite (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/SidekicksTerrabite.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Zap (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GlowInTheDarkZap.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Gill Runt (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSA/SidekicksGillRunt.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Wrecking Ball (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSA/GlowInTheDarkWreckingBall.png",
+      "swapper": false
+    },
+    {
+      "name": "Zap (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Zap.png",
+      "swapper": false
+    },
+    {
+      "name": "Wham-Shell (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/WhamShell.png",
+      "swapper": false
+    },
+    {
+      "name": "Slam Bam (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/SlamBam.png",
+      "swapper": false
+    },
+    {
+      "name": "Gill Grunt (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/GillGrunt.png",
+      "swapper": false
+    },
+    {
+      "name": "Hex (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Hex.png",
+      "swapper": false
+    },
+    {
+      "name": "Ghost Roaster (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/GhostRoaster.png",
+      "swapper": false
+    },
+    {
+      "name": "Cynder (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Cynder.png",
+      "swapper": false
+    },
+    {
+      "name": "Chop Chop (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/ChopChop1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trigger Happy (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/TriggerHappy2.png",
+      "swapper": false
+    },
+    {
+      "name": "Drobot (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Drobot.png",
+      "swapper": false
+    },
+    {
+      "name": "Drill Sergeant (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/DrillSergeant.png",
+      "swapper": false
+    },
+    {
+      "name": "Boomer (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Boomer.png",
+      "swapper": false
+    },
+    {
+      "name": "Wrecking Ball (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/WreckingBall.png",
+      "swapper": false
+    },
+    {
+      "name": "Voodood (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Voodood.png",
+      "swapper": false
+    },
+    {
+      "name": "Spyro (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Spyro1.png",
+      "swapper": false
+    },
+    {
+      "name": "Double Trouble (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/DoubleTrouble.png",
+      "swapper": false
+    },
+    {
+      "name": "Zook (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Zook.png",
+      "swapper": false
+    },
+    {
+      "name": "Stump Smash (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/StumpSmash.png",
+      "swapper": false
+    },
+    {
+      "name": "Stealth Elf (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/StealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Camo (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Camo.png",
+      "swapper": false
+    },
+    {
+      "name": "Sunburn (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/Sunburn.png",
+      "swapper": false
+    },
+    {
+      "name": "Ignitor (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Ignitor.png",
+      "swapper": false
+    },
+    {
+      "name": "Flameslinger (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Flameslinger.png",
+      "swapper": false
+    },
+    {
+      "name": "Eruptor (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Eruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Terrafin (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSA/Terrafin.png",
+      "swapper": false
+    },
+    {
+      "name": "Prism Break (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/PrismBreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Dino-Rang (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/DinoRang.png",
+      "swapper": false
+    },
+    {
+      "name": "Bash (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Bash.png",
+      "swapper": false
+    },
+    {
+      "name": "Whirlwind (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Whirlwind2.png",
+      "swapper": false
+    },
+    {
+      "name": "Warnado (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/Warnado.png",
+      "swapper": false
+    },
+    {
+      "name": "Sonic Boom (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/SonicBoom.png",
+      "swapper": false
+    },
+    {
+      "name": "Lightning Rod (Series 1)",
+      "details": "",
+      "edition": "Spyro's Adventures",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSA/LightningRod2.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Green Shroomboom",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/MetallicGreenShroomboom.png",
+      "swapper": false
+    },
+    {
+      "name": "Halloween Fright Rider",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/HalloweenFrightRider.png",
+      "swapper": false
+    },
+    {
+      "name": "Pumpkin Eye-Brawl",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Giant",
+      "variant": "Chase",
+      "image": "SG/PumpkinEyeBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Golden Dragonfire Cannon",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/GoldenCannon.png",
+      "swapper": false
+    },
+    {
+      "name": "Scorpion Striker Catapult",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/Catapult.png",
+      "swapper": false
+    },
+    {
+      "name": "Dragonfire Cannon",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/Cannon.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Purple Eye-Brawl",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Giant",
+      "variant": "Chase",
+      "image": "SG/PurpleEyeBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Purple Wrecking Ball (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/PurpleWreckingBall.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Purple Lightning Rod (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/PurpleLightningRod.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Thumpling",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/SidekickThumpling.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Mini Jini",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/SidekickMiniJini.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Eye Small",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/SidekickEyeSmall.png",
+      "swapper": false
+    },
+    {
+      "name": "Sidekick Barkley",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/SidekickBarkley.png",
+      "swapper": false
+    },
+    {
+      "name": "Bronze Hot Dog",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/E3_Special_Hot_Dog_Bronze.png",
+      "swapper": false
+    },
+    {
+      "name": "Jade Flashwing",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/JadeFlashwing.png",
+      "swapper": false
+    },
+    {
+      "name": "White Flocked Stump Smash (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/WhiteFlockedStumpSmash.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Stealth Elf (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/LegendaryStealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Granite Crusher",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Giant",
+      "variant": "In-Game",
+      "image": "SG/GraniteCrusher.png",
+      "swapper": false
+    },
+    {
+      "name": "White Flocked LightCore Prism Break (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "LightCore",
+      "variant": "Chase",
+      "image": "SG/WhiteFlockedLightCorePrismBreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Slam Bam (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/LegendarySlamBam.png",
+      "swapper": false
+    },
+    {
+      "name": "Golden Flameslinger (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/GoldenFlameslinger.png",
+      "swapper": false
+    },
+    {
+      "name": "White Flocked Eruptor (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/WhiteFlockedEruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Jet-Vac",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/LegendaryJetVac1.png",
+      "swapper": false
+    },
+    {
+      "name": "Gnarly Tree Rex",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Giant",
+      "variant": "In-Game",
+      "image": "SG/GnarlyTreeRex1.png",
+      "swapper": false
+    },
+    {
+      "name": "Stone Zook (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/StoneZook.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Ignitor (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/LegendaryIgnitor.png",
+      "swapper": false
+    },
+    {
+      "name": "Stone Whirlwind (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/StoneWhirlwind.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary LightCore Chill",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "LightCore",
+      "variant": "In-Game",
+      "image": "SG/LegendaryLightCoreChill.png",
+      "swapper": false
+    },
+    {
+      "name": "Sparkle Sprocket",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/SparkleSprocket.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Bouncer",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Giant",
+      "variant": "In-Game",
+      "image": "SG/LegendaryBouncer.png",
+      "swapper": false
+    },
+    {
+      "name": "Sparkle Sonic Boom (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/SparkleSonicBoom.png",
+      "swapper": false
+    },
+    {
+      "name": "Sparkle Hot Head",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Giant",
+      "variant": "Chase",
+      "image": "SG/SparkleHotHead.png",
+      "swapper": false
+    },
+    {
+      "name": "Scarlet Ninjini",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Giant",
+      "variant": "In-Game",
+      "image": "SG/ScarletNinjini1.png",
+      "swapper": false
+    },
+    {
+      "name": "Royal Double Trouble (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/RoyalDoubleTrouble.png",
+      "swapper": false
+    },
+    {
+      "name": "Punch Pop Fizz",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/PunchPopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Sonic Boom (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/GlowInTheDarkSonicBoom.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Fright Rider",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/GlowInTheDarkFrightRider.png",
+      "swapper": false
+    },
+    {
+      "name": "Glow-in-the-Dark Cynder (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/GlowInTheDarkCynder.png",
+      "swapper": false
+    },
+    {
+      "name": "Employee Edition LightCore Prism Break (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "LightCore",
+      "variant": "Chase",
+      "image": "SG/EmployeeEditionPrismBreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Polar Whirlwind (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/PolarWhirlwind.png",
+      "swapper": false
+    },
+    {
+      "name": "Molten Hot Dog",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SG/MoltenHotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Blue Chop Chop (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SG/MetallicBlueChopChop.png",
+      "swapper": false
+    },
+    {
+      "name": "Skylanders Giants Figures (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/PolarWhirlwind.png",
+      "swapper": false
+    },
+    {
+      "name": "Whirlwind (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Whirlwind1.png",
+      "swapper": false
+    },
+    {
+      "name": "Swarm",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/Swarm.png",
+      "swapper": false
+    },
+    {
+      "name": "Sonic Boom (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/SonicBoom1.png",
+      "swapper": false
+    },
+    {
+      "name": "Lightning Rod (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/LightningRod1.png",
+      "swapper": false
+    },
+    {
+      "name": "Jet-Vac LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/JetVacLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Jet-Vac",
+      "details": "",
+      "edition": "Giants",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/JetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Zook (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Zook1.png",
+      "swapper": false
+    },
+    {
+      "name": "Tree Rex",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/TreeRex.png",
+      "swapper": false
+    },
+    {
+      "name": "Stump Smash (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/StumpSmash1.png",
+      "swapper": false
+    },
+    {
+      "name": "Stealth Elf (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/StealthElf1.png",
+      "swapper": false
+    },
+    {
+      "name": "Shroomboom LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/ShroomboomLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Shroomboom",
+      "details": "",
+      "edition": "Giants",
+      "element": "Life",
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/Shroomboom.png",
+      "swapper": false
+    },
+    {
+      "name": "Hex LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/HexLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Hex (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Hex1.png",
+      "swapper": false
+    },
+    {
+      "name": "Fright Rider",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/FrightRider.png",
+      "swapper": false
+    },
+    {
+      "name": "Eye-Brawl",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/EyeBrawl1.png",
+      "swapper": false
+    },
+    {
+      "name": "Cynder (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Cynder1.png",
+      "swapper": false
+    },
+    {
+      "name": "Chop Chop (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Undead",
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/ChopChop.png",
+      "swapper": false
+    },
+    {
+      "name": "Terrafin (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Terrafin2.png",
+      "swapper": false
+    },
+    {
+      "name": "Prism Break LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/PrismBreakLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Prism Break (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/PrismBreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Flashwing",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Flashwing.png",
+      "swapper": false
+    },
+    {
+      "name": "Crusher",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/Crusher.png",
+      "swapper": false
+    },
+    {
+      "name": "Bash (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Bash.png",
+      "swapper": false
+    },
+    {
+      "name": "Ignitor (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Ignitor1.png",
+      "swapper": false
+    },
+    {
+      "name": "Hot Head",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/HotHead.png",
+      "swapper": false
+    },
+    {
+      "name": "Hot Dog",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/HotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Flameslinger (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Flameslinger1.png",
+      "swapper": false
+    },
+    {
+      "name": "Eruptor LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/EruptorLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Eruptor (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Eruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Wrecking Ball (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/WreckingBall1.png",
+      "swapper": false
+    },
+    {
+      "name": "Spyro (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Spyro2.png",
+      "swapper": false
+    },
+    {
+      "name": "Pop Fizz LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/LightCorePopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Pop Fizz",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/PopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Ninjini",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/Ninjini.png",
+      "swapper": false
+    },
+    {
+      "name": "Double Trouble (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/DoubleTrouble1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trigger Happy (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/TriggerHappy1.png",
+      "swapper": false
+    },
+    {
+      "name": "Sprocket",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Sprocket.png",
+      "swapper": false
+    },
+    {
+      "name": "Drobot LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/DrobotLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Drobot (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Drobot.png",
+      "swapper": false
+    },
+    {
+      "name": "Drill Sergeant (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/DrillSergeant1.png",
+      "swapper": false
+    },
+    {
+      "name": "Bouncer",
+      "details": "",
+      "edition": "Giants",
+      "element": "Tech",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/Bouncer.png",
+      "swapper": false
+    },
+    {
+      "name": "Zap (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SG/Zap.png",
+      "swapper": false
+    },
+    {
+      "name": "Thumpback",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Giant",
+      "variant": "Standard",
+      "image": "SG/Thumpback.png",
+      "swapper": false
+    },
+    {
+      "name": "Slam Bam (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/SlamBam1.png",
+      "swapper": false
+    },
+    {
+      "name": "Gill Grunt (Series 2)",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/GillGrunt1.png",
+      "swapper": false
+    },
+    {
+      "name": "Chill LightCore",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SG/ChillLightCore.png",
+      "swapper": false
+    },
+    {
+      "name": "Chill",
+      "details": "",
+      "edition": "Giants",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SG/Chill.png",
+      "swapper": false
+    },
+    {
+      "name": "Red Flame Frito-Lay Fire Bone Hot Dog",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/RedFlameFritoLayFireBoneHotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Purple Flame Frito-Lay Fire Bone Hot Dog",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/PurpleFlameFritoLayFireBoneHotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Green Flame Frito-Lay Fire Bone Hot Dog",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/GreenFlameFritoLayFireBoneHotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Flocked Springtime Trigger Happy",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "In-Game*",
+      "image": "SSF/FlockedSpringtimeTriggerHappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold & Bronze Doom Stone",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Swapper",
+      "variant": "Chase",
+      "image": "SSF/GoldBronzeDoomStone.png",
+      "swapper": true
+    },
+    {
+      "name": "Silver & Gold Stink Bomb",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Swapper",
+      "variant": "Chase",
+      "image": "SSF/SilverStinkGoldBomb.png",
+      "swapper": true
+    },
+    {
+      "name": "Bronze & Silver Trap Shadow",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Swapper",
+      "variant": "Chase",
+      "image": "SSF/BronzeTrapSilverShadow.png",
+      "swapper": true
+    },
+    {
+      "name": "Metallic Red Dune Bug",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/MetallicRedDuneBug1.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Freeze Blade",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/NitroFreezeBlade.png",
+      "swapper": true
+    },
+    {
+      "name": "Heavy Metal Sprocket",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/ArmySprocket.png",
+      "swapper": false
+    },
+    {
+      "name": "Arkeyan Crossbow",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SSF/ArkeyanCrossbow.png",
+      "swapper": false
+    },
+    {
+      "name": "Target Pre-order Card (UFO Hat)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SSF/TargetPreorderCard_UFOHat.png",
+      "swapper": false
+    },
+    {
+      "name": "Snowderdash – Employee Edition LightCore Smolderdash Holiday 2013",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "LightCore",
+      "variant": "Chase",
+      "image": "SSF/Snowderdash.png",
+      "swapper": false
+    },
+    {
+      "name": "Tower of Time",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/TowerOfTime1.png",
+      "swapper": false
+    },
+    {
+      "name": "Sky Diamond",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/SkyDiamond1.png",
+      "swapper": false
+    },
+    {
+      "name": "Sheep Wreck Island",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/SheepWreckIsland1.png",
+      "swapper": false
+    },
+    {
+      "name": "Platinum Sheep",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/PlatinumSheep1.png",
+      "swapper": false
+    },
+    {
+      "name": "Groove Machine",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/GrooveMachine1.png",
+      "swapper": false
+    },
+    {
+      "name": "Fiery Forge",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Battle Pack",
+      "variant": "Standard",
+      "image": "SSF/FieryForge1.png",
+      "swapper": false
+    },
+    {
+      "name": "Battle Hammer",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SSF/BattleHammer1.png",
+      "swapper": false
+    },
+    {
+      "name": "Green Scorp",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/GreenScorp.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Fire Kraken",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Swapper",
+      "variant": "Chase",
+      "image": "SSF/GoldFireKraken.png",
+      "swapper": true
+    },
+    {
+      "name": "Green Chop Chop",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/GreenChopChop1.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Bumble Blast",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreBumbleBlast1.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Wham-Shell",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreWhamShell.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Countdown",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreCountdown.png",
+      "swapper": false
+    },
+    {
+      "name": "Thorn Horn Camo (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/ThornHornCamo1.png",
+      "swapper": false
+    },
+    {
+      "name": "Turbo Jet-Vac (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/TurboJetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Phantom Cynder (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/PhantomCynder.png",
+      "swapper": false
+    },
+    {
+      "name": "Hyper Beam Prism Break (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/HyperBeamPrismBreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Horn Blast Whirlwind (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/HornBlastWhirlwind.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Bone Hot Dog (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/FireBoneHotDog.png",
+      "swapper": false
+    },
+    {
+      "name": "Wind Up",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/WindUp.png",
+      "swapper": false
+    },
+    {
+      "name": "Smolderdash",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Smolderdash.png",
+      "swapper": false
+    },
+    {
+      "name": "Punk Shock",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/PunkShock1.png",
+      "swapper": false
+    },
+    {
+      "name": "Fryno",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Fryno1.png",
+      "swapper": false
+    },
+    {
+      "name": "Dune Bug",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/DuneBug.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Shadow",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/TrapShadow.png",
+      "swapper": true
+    },
+    {
+      "name": "Rubble Rouser",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/RubbleRouser1.png",
+      "swapper": true
+    },
+    {
+      "name": "Doom Stone",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/DoomStone1.png",
+      "swapper": true
+    },
+    {
+      "name": "Green Rip Tide",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Chase",
+      "image": "SSF/GreenRipTide2.png",
+      "swapper": false
+    },
+    {
+      "name": "Metallic Green Wash Buckler",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Swapper",
+      "variant": "Chase",
+      "image": "SSF/GoldWashBuckler1.png",
+      "swapper": true
+    },
+    {
+      "name": "Springtime Trigger Happy",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/SpringtimeTriggerHappy2.png",
+      "swapper": false
+    },
+    {
+      "name": "Kickoff Countdown",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/KickoffCountdown.png",
+      "swapper": false
+    },
+    {
+      "name": "Jolly Bumble Blast",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/Jolly-BumbleBlast.png",
+      "swapper": false
+    },
+    {
+      "name": "Jade Fire Kraken",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/JadeFireKraken3.png",
+      "swapper": true
+    },
+    {
+      "name": "Enchanted LightCore Star Strike",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "LightCore",
+      "variant": "In-Game",
+      "image": "SSF/EnchantedStarStrike1.png",
+      "swapper": false
+    },
+    {
+      "name": "Scratch",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Scratch.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Magna Charge",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/NitroMagnaCharge1.png",
+      "swapper": true
+    },
+    {
+      "name": "Big Bang Trigger Happy (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/BigBangTriggerHappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Quick Draw Rattle Shake",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/QuickdrawRattleShake.png",
+      "swapper": true
+    },
+    {
+      "name": "Enchanted Hoot Loop",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/EnchantedHootLoop.png",
+      "swapper": true
+    },
+    {
+      "name": "Zoo Lou",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/ZooLou.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Wash Buckler",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/DarkWashBuckler.png",
+      "swapper": true
+    },
+    {
+      "name": "Dark Stealth Elf",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/DarkStealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Spyro",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/DarkSpyro.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Slobber Tooth",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/DarkSlobberTooth.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Blast Zone",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/DarkBlastZone.png",
+      "swapper": true
+    },
+    {
+      "name": "Knockout Terrafin (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/KnockoutTerrafin.png",
+      "swapper": false
+    },
+    {
+      "name": "Twin Blade Chop Chop (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/TwinBladeChopChop.png",
+      "swapper": false
+    },
+    {
+      "name": "Scorp",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Scorp.png",
+      "swapper": false
+    },
+    {
+      "name": "Heavy Duty Sprocket (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/HeavyDutySprocket.png",
+      "swapper": false
+    },
+    {
+      "name": "Blizzard Chill (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/BlizzardChill.png",
+      "swapper": false
+    },
+    {
+      "name": "Super Gulp Pop Fizz (Series 2)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/SuperGulpPopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Warnado",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreWarnado.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Smolderdash",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreSmoulderdash.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Flashwing",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/LightCoreFlashwing.png",
+      "swapper": false
+    },
+    {
+      "name": "Anchors Away Gill Grunt (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/AnchorsAwayGillGrunt.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Zoo Lou",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/LegendaryZooLou.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary LightCore Grim Creeper",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "LightCore",
+      "variant": "In-Game",
+      "image": "SSF/LegendaryLightCoreGrimCreeper.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Free Ranger",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/LegendaryFreeRanger.png",
+      "swapper": true
+    },
+    {
+      "name": "Legendary Night Shift",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Swapper",
+      "variant": "In-Game",
+      "image": "SSF/LegendaryNightShift.png",
+      "swapper": true
+    },
+    {
+      "name": "Slobber Tooth",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/SlobberTooth1.png",
+      "swapper": false
+    },
+    {
+      "name": "Bumble Blast",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/BumbleBlast.png",
+      "swapper": false
+    },
+    {
+      "name": "Boom Jet",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/BoomJet.png",
+      "swapper": true
+    },
+    {
+      "name": "Spy Rise",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/SpyRise.png",
+      "swapper": true
+    },
+    {
+      "name": "Rip Tide",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Riptide.png",
+      "swapper": false
+    },
+    {
+      "name": "Grilla Drilla",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/GrillaDrilla.png",
+      "swapper": true
+    },
+    {
+      "name": "Mega Ram Spyro (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/MegaRamSpyro.png",
+      "swapper": false
+    },
+    {
+      "name": "Pop Thorn",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Popthorn.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Grim Creeper",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/GrimCreeper.png",
+      "swapper": false
+    },
+    {
+      "name": "Lava Barf Eruptor (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/LavaBarfEruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Kraken",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/FireKraken.png",
+      "swapper": true
+    },
+    {
+      "name": "Volcanic Eruptor",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "SSF/VolcanicEruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "LightCore Star Strike",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "LightCore",
+      "variant": "Standard",
+      "image": "SSF/StarStrike.png",
+      "swapper": false
+    },
+    {
+      "name": "Rattle Shake",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/RattleShake.png",
+      "swapper": true
+    },
+    {
+      "name": "Hoot Loop",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/HootLoop.png",
+      "swapper": true
+    },
+    {
+      "name": "Free Ranger",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Air",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/FreeRanger.png",
+      "swapper": true
+    },
+    {
+      "name": "SWAP Force Figures",
+      "details": "",
+      "edition": "Swap Force",
+      "element": null,
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/LightCoreStarStrike.png",
+      "swapper": true
+    },
+    {
+      "name": "Wash Buckler",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/WashBuckler.png",
+      "swapper": true
+    },
+    {
+      "name": "Ninja Stealth Elf (Series 3)",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/StealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Stink Bomb",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Life",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/StinkBomb.png",
+      "swapper": true
+    },
+    {
+      "name": "Roller Brawl",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/RollerBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Night Shift",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/NightShift.png",
+      "swapper": true
+    },
+    {
+      "name": "Countdown",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/Countdown.png",
+      "swapper": false
+    },
+    {
+      "name": "Magna Charge",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Tech",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/MagnaCharge.png",
+      "swapper": true
+    },
+    {
+      "name": "Blast Zone",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Fire",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/BlastZone.png",
+      "swapper": true
+    },
+    {
+      "name": "Freeze Blade",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Water",
+      "type": "Swapper",
+      "variant": "Standard",
+      "image": "SSF/FreezeBlade.png",
+      "swapper": true
+    },
+    {
+      "name": "Grim Creeper",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/GrimCreeper1.png",
+      "swapper": false
+    },
+    {
+      "name": "Star Strike",
+      "details": "",
+      "edition": "Swap Force",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSF/StarStrike.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Handstand Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechHandstandTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Handstand Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthHandstandTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Handstand Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/DarkHandstandTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Clear Thunderbolt",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Trap Master",
+      "variant": "Chase",
+      "image": "STT/ClearThunderbolt.png",
+      "swapper": false
+    },
+    {
+      "name": "Clear Short Cut",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Trap Master",
+      "variant": "Chase",
+      "image": "STT/ClearShortCut.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Steampunk Shrednaught",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Red Hot Tussle Sprout",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/RedHotTussleSprout.png",
+      "swapper": false
+    },
+    {
+      "name": "Easter Bunny Earth Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/EasterBunnyEarthTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Rebel Lob Goblin",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/RebelLobGoblin.png",
+      "swapper": false
+    },
+    {
+      "name": "Clear Tuff Luck",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Trap Master",
+      "variant": "Chase",
+      "image": "STT/ClearTuffLuck.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Water Jughead Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/LegendaryWaterJugheadTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Undead Skull Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/LegendaryUndeadSkullTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Undead Orb Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/LegendaryUndeadOrb1.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Captain’s Hat Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadCaptainsHatTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Upside Down Guy Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Fire Captain’s Hat Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireCaptainsHatTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Upside Down Guy Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Light Yawn Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LightYawnTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Light Rocket Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LightRocketTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Light Owl Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LightHawkTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Upside Down Guy Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Dark Sword Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/DarkSwordTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Spider Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/DarkSpiderTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Steamed Broccoli Guy",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/SteamedBroccoliGuy.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Luminous",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Luminous.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Nightshade",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Nightshade.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Tae Kwon Crow",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TaeKwonCrow4.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Fisticuffs",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Fisticuffs.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Eye Scream",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EyeScream.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Lob Goblin",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LobGoblin2.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Eye Five",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EyeFive.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Blaster-Tron",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BlasterTron.png",
+      "swapper": false
+    },
+    {
+      "name": "Spotlight (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Spotlight.png",
+      "swapper": false
+    },
+    {
+      "name": "Blackout (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Blackout.png",
+      "swapper": false
+    },
+    {
+      "name": "Knight Mare",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Dark",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/KnightMare.png",
+      "swapper": false
+    },
+    {
+      "name": "Knight Light",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/KnightLight.png",
+      "swapper": false
+    },
+    {
+      "name": "Tiki Speaky",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/TikiSpeaky.png",
+      "swapper": false
+    },
+    {
+      "name": "Rocket Ram",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/RocketRam.png",
+      "swapper": false
+    },
+    {
+      "name": "Sunscraper Spire",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/SunscraperSpire.png",
+      "swapper": false
+    },
+    {
+      "name": "Mirror of Mystery",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/MirrorOfMystery.png",
+      "swapper": false
+    },
+    {
+      "name": "Midnight Museum",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/MidnightMuseum.png",
+      "swapper": false
+    },
+    {
+      "name": "Winterfest Lob-Star",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/WinterfestLobStar1.png",
+      "swapper": false
+    },
+    {
+      "name": "Power Punch Pet Vac",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/PowerPunchPetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Deja Vu (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/LegendaryDejaVu.png",
+      "swapper": false
+    },
+    {
+      "name": "King Cobra Cadabra (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/KingCobraCadabra.png",
+      "swapper": false
+    },
+    {
+      "name": "Gnarly Barkley",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/GnarlyBarkley.png",
+      "swapper": false
+    },
+    {
+      "name": "Eggsellent Weeruptor",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/EggscellentWeeruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Hourglass Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicHourglassTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Screamer Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireScreamerTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Hourglass Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthHourglassTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Screamer Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirScreamerTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Hourglass Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirHourglassTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Love Potion Pop Fizz",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/LovePotionPopFizz2.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Head Rush",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/NitroHeadRush.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Bushwhack",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/LegendaryBushwhack.png",
+      "swapper": false
+    },
+    {
+      "name": "Trail Blazer (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TrailBlazer.png",
+      "swapper": false
+    },
+    {
+      "name": "Rocky Roll (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/RockyRoll.png",
+      "swapper": false
+    },
+    {
+      "name": "Fling Kong (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FlingKong.png",
+      "swapper": false
+    },
+    {
+      "name": "Echo (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Echo.png",
+      "swapper": false
+    },
+    {
+      "name": "Cobra Cadabra (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/CobraCadabra.png",
+      "swapper": false
+    },
+    {
+      "name": "Tuff Luck",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/TuffLuck.png",
+      "swapper": false
+    },
+    {
+      "name": "Thunderbolt",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Thunderbolt.png",
+      "swapper": false
+    },
+    {
+      "name": "Short Cut",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/ShortCut.png",
+      "swapper": false
+    },
+    {
+      "name": "Enigma",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Enigma.png",
+      "swapper": false
+    },
+    {
+      "name": "Blastermind",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Blastermind.png",
+      "swapper": false
+    },
+    {
+      "name": "Full Blast Jet-Vac (Series 3)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FullBlastJetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Outlaw Brawl and Chain",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Kaos",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Kaos.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Golden Queen",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/GoldenQueen.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Dreamcatcher",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Dreamcatcher.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Dr. Krankcase",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/DrKrankcase.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Chompy Mage",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ChompyMage.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Chef Pepper Jack",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ChefPepperJack.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Tussle Sprout",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TussleSprout.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Trolling Thunder",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TrollingThunder.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Threatpack",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ThreatPack.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Smoke Scream",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/SmokeScream.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Slobber Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/SlobberTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Shield Shredder",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ShieldShredder.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Rage Mage",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/RageMage.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Scrap Shooter",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ScrapShooter.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Mab Lobs",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MadLobs.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Krankenstein",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Krankenstein.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Hood Sickle",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/HoodSickle.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Cuckoo Clocker",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/CuckooClocker.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Grave Clobber",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/GraveClobber.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Cross Crow",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/CrossCrow.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Chompy",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Chompy.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Chomp Chest",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ChompChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Bruiser Cruiser",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BruiserCruiser.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Bone Chompy",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BoneChompy.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Bomb Shell",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BombShell.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Bad Juju",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BadJuju.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Flying Helmet Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterFlyingHelmetTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Angel Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterAngelTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Snake Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadSnakeTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Hand Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadHandTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Tiki Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechTikiTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Hand Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechHandTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Flying Helmet Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechFlyingHelmetTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Angel Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechAngelTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Totem Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicTotemTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Rocket Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicRocketTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Yawn Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeYawnTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Sword Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeSwordTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Snake Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeSnakeTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Yawn Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireYawnTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Totem Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireTotemTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Totem Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthTotemTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Sword Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirSwordTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Snake Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirSnakeTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Deja Vu (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/DejaVu.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Log Holder Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicLogHolderTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Hand of Fate",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/HandOfFate.png",
+      "swapper": false
+    },
+    {
+      "name": "Blades (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Blades.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Krypt King",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/NitroKryptKing.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Log Holder Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterLogHolderTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Jughead Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterJugheadTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Axe Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterAxeTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Skull Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadSkullTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Orb Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadOrbTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Axe Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UndeadAxeTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Scepter Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TechScepterTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Axe Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicAxeTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Toucan Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeToucanTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Torch Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireTorchTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Toucan Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthToucanTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Orb Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthOrbTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Hammer Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EarthHammerTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Toucan Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirToucanTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Jughead Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/AirJugheadTrap1.png",
+      "swapper": false
+    },
+    {
+      "name": "Sure Shot Shroomboom (Series 2)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/SureShotShroomboom.png",
+      "swapper": false
+    },
+    {
+      "name": "Hog Wild Fryno (Series 2)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/HogWildFryno.png",
+      "swapper": false
+    },
+    {
+      "name": "Fizzy Frenzy Pop Fizz (Series 3)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FizzyFrenzyPopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Tread Head (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TreadHead.png",
+      "swapper": false
+    },
+    {
+      "name": "Fist Bump (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FistBump.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Jawbreaker",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/LegendaryJawbreaker.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Blades (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/LegendaryBlades.png",
+      "swapper": false
+    },
+    {
+      "name": "Lob-Star",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/LobStar.png",
+      "swapper": false
+    },
+    {
+      "name": "Piggy Bank",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/PiggyBank.png",
+      "swapper": false
+    },
+    {
+      "name": "Nightmare Express",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/NightmareExpress.png",
+      "swapper": false
+    },
+    {
+      "name": "Hand of Fate",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "STT/HandOfFate1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Masker Mind",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MaskerMind.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Brawlrus",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Brawlrus.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Brawl and Chain",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BrawlAndChain.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Whisper Elf",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WhisperElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Weeruptor",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Weeruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Trigger Snappy",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TriggerSnappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Thumpling",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Thumping.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Terrabite",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Terrabite.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Spry",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Spry.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Small Fry",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/SmallFry.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Pet Vac",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/PetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Mini Jini",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MiniJini.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Hijinx",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Hijinx.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Gill Runt",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/GillRunt.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Eye Small",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/EyeSmall.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Drobit",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Drobit.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Breeze",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Breeze.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Bop",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Bop.png",
+      "swapper": false
+    },
+    {
+      "name": "Mini Barkley",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Barkley.png",
+      "swapper": false
+    },
+    {
+      "name": "Kaboom",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Kaboom.png",
+      "swapper": false
+    },
+    {
+      "name": "Head Rush",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/HeadRush.png",
+      "swapper": false
+    },
+    {
+      "name": "Bushwhack",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/BushWhack.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Gulper",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Gulper.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Sheep Creep",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/SheepCreep.png",
+      "swapper": false
+    },
+    {
+      "name": "Ultimate Kaos Trap (Dark Edition Variant)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/UltimateKaosTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Food Fight (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "In-Game",
+      "image": "STT/DarkFoodFight.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Wildfire",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/DarkWildFire.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Snap Shot",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Trap Master",
+      "variant": "In-Game",
+      "image": "STT/DarkSnapShot.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Tiki Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/WaterTikiTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Skull Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Magic",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/MagicSkullTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Torch Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeTorchTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Hammer Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/LifeHammerTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Kaos Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/KaosTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Scepter Trap",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FireScepterTrap.png",
+      "swapper": false
+    },
+    {
+      "name": "Tidal Wave Gill Grunt (Series 4)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TidalWaveGillGrunt1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Riot Shield Shredder",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Variant",
+      "image": "STT/RiotShieldShredder1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Wolfgang",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Wolfgang1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Shrednaught",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Shrednaught.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Painyatta",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Painyatta.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Grinnade",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Grinnade.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Chill Bill",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/ChillBill1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Buzzer Beak",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BuzzerBeak1.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Villain: Broccoli Guy",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BroccoliGuy1.png",
+      "swapper": false
+    },
+    {
+      "name": "Gusto",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Air",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Gusto1.png",
+      "swapper": false
+    },
+    {
+      "name": "Jawbreaker",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/JawBreaker1.png",
+      "swapper": false
+    },
+    {
+      "name": "Krypt King",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/KryptKing1.png",
+      "swapper": false
+    },
+    {
+      "name": "Gearshift",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Gearshift.png",
+      "swapper": false
+    },
+    {
+      "name": "High Five (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/HighFive1.png",
+      "swapper": false
+    },
+    {
+      "name": "Flip Wreck (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FlipWreck1.png",
+      "swapper": false
+    },
+    {
+      "name": "Bat Spin (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/BatSpin1.png",
+      "swapper": false
+    },
+    {
+      "name": "Torch (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Torch.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Funny Bone (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Undead",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FunnyBone.png",
+      "swapper": false
+    },
+    {
+      "name": "Chopper (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Tech",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/Chopper.png",
+      "swapper": false
+    },
+    {
+      "name": "Food Fight (Series 1)",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Life",
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/FoodFight.png",
+      "swapper": false
+    },
+    {
+      "name": "Wildfire",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Fire",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/WildFire.png",
+      "swapper": false
+    },
+    {
+      "name": "Wallop",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Earth",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/Wallop.png",
+      "swapper": false
+    },
+    {
+      "name": "Snap Shot",
+      "details": "",
+      "edition": "Trap Team",
+      "element": "Water",
+      "type": "Trap Master",
+      "variant": "Standard",
+      "image": "STT/SnapShot.png",
+      "swapper": false
+    },
+    {
+      "name": "Trap Team Figures",
+      "details": "",
+      "edition": "Trap Team",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "STT/TrailBlazer_Small.png",
+      "swapper": false
+    },
+    {
+      "name": "Mobile Hot Streak",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/HotStreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Power Blue Gold Rusher",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/PowerBlueGoldRusher.png",
+      "swapper": false
+    },
+    {
+      "name": "Power Blue Splatter Splasher",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/PowerBlueSplatterSplasher.png",
+      "swapper": false
+    },
+    {
+      "name": "Power Blue Double Dare Trigger Happy",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/PowerBlueTriggerHappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Power Blue Splat",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/PowerBlueSplat.png",
+      "swapper": false
+    },
+    {
+      "name": "Land Trophy (Count Moneybone)",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SSC/LandTrophy.png",
+      "swapper": false
+    },
+    {
+      "name": "Bronze Tomb Buggy",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/BronzeTombBuggy.png",
+      "swapper": false
+    },
+    {
+      "name": "Bronze Bone Bash Roller Brawl",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/BronzeBoneBashRollerBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Birthday Bash Big Bubble Pop Fizz",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/BirthdayBashBigBubblePopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Snow-Brite Stormblade – Exclusive Employee Edition Holiday 2015",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/SnowBriteStormblade.png",
+      "swapper": false
+    },
+    {
+      "name": "Patina Burn-Cycle",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/PatinaBurnCycle.png",
+      "swapper": false
+    },
+    {
+      "name": "Patina Shield Striker",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/PatinaShieldStriker.png",
+      "swapper": false
+    },
+    {
+      "name": "Missile-Tow Dive-Clops",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Water",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/MissileTowDiveClops.png",
+      "swapper": false
+    },
+    {
+      "name": "Patina Lava Lance Eruptor",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Eggcited Thrillipede",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/EggcitedThrillipede.png",
+      "swapper": false
+    },
+    {
+      "name": "Sky Trophy (Wolfgang)",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SSC/SkyTrophy.png",
+      "swapper": false
+    },
+    {
+      "name": "Spring Ahead Dive Bomber",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Water",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/SpringAheadDiveBomber.png",
+      "swapper": false
+    },
+    {
+      "name": "Patina High Volt",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/PatinaHighVolt.png",
+      "swapper": false
+    },
+    {
+      "name": "Golden Hot Streak",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/GoldenHotStreak1.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Soda Skimmer",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/NitroSodaSkimmer.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Sun Runner",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/LegendarySunRunner.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Bone Bash Roller Brawl",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/LegendaryBoneBashRollerBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Astroblast",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/LegendaryAstroblast.png",
+      "swapper": false
+    },
+    {
+      "name": "Tomb Buggy",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/TombBuggy.png",
+      "swapper": false
+    },
+    {
+      "name": "Thump Truck",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Earth",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/ThumpTruck.png",
+      "swapper": false
+    },
+    {
+      "name": "Shield Striker",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/ShieldStriker.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Rusher",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/GoldRusher.png",
+      "swapper": false
+    },
+    {
+      "name": "Bone Bash Roller Brawl",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/BoneBashRollerBrawl.png",
+      "swapper": false
+    },
+    {
+      "name": "Nitro Stealth Stinger",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/NitroStealthStinger.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Hurricane Jet-Vac",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/LegendaryHurricaneJetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Steel Plated Smash Hit",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Earth",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Frightful Fiesta",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/FrightfulFiesta.png",
+      "swapper": false
+    },
+    {
+      "name": "Smash Hit",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Earth",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/SmashHit.png",
+      "swapper": false
+    },
+    {
+      "name": "Sea Trophy (Golden Queen)",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SSC/SeaTrophy.png",
+      "swapper": false
+    },
+    {
+      "name": "Sun Runner",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SunRunner.png",
+      "swapper": false
+    },
+    {
+      "name": "Stealth Stinger",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/StealthStinger.png",
+      "swapper": false
+    },
+    {
+      "name": "Splatter Splasher",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SplatterSplasher.png",
+      "swapper": false
+    },
+    {
+      "name": "Soda Skimmer",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SodaSkimmer.png",
+      "swapper": false
+    },
+    {
+      "name": "Buzz Wing",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/BuzzWing.png",
+      "swapper": false
+    },
+    {
+      "name": "Burn-Cycle",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/BurnCycle.png",
+      "swapper": false
+    },
+    {
+      "name": "Thrillipede",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/Thrillipede.png",
+      "swapper": false
+    },
+    {
+      "name": "Splat",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/Splat.png",
+      "swapper": false
+    },
+    {
+      "name": "Lava Lance Eruptor",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/LavaLanceEruptor.png",
+      "swapper": false
+    },
+    {
+      "name": "High Volt",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/HighVolt.png",
+      "swapper": false
+    },
+    {
+      "name": "Big Bubble Pop Fizz",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Magic",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/BigBubblePopFizz.png",
+      "swapper": false
+    },
+    {
+      "name": "Astroblast",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/Astroblast.png",
+      "swapper": false
+    },
+    {
+      "name": "Kaos Trophy",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SSC/KaosTrophy300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Sea Shadow",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Dark",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/DarkSeaShadow-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Hot Streak",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/DarkHotStreak-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Clown Cruiser",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/DarkClownCruiser-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Barrel Blaster",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/DarkBarrelBlaster-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Turbo Charge Donkey Kong",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/DarkTurboChargeDonkeyKong-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Super Shot Stealth Elf",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/DarkSuperShotStealthElf-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Hammer Slam Bowser",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/DarkHammerSlamBowser-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Spitfire",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Variant",
+      "image": "SSC/DarkSpitfire-300.png",
+      "swapper": false
+    },
+    {
+      "name": "Shark Tank",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Earth",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SharkTank.png",
+      "swapper": false
+    },
+    {
+      "name": "Deep Dive Gill Grunt",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/DeepDiveGillGrunt1.png",
+      "swapper": false
+    },
+    {
+      "name": "Reef Ripper",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Water",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/ReefRipper1.png",
+      "swapper": false
+    },
+    {
+      "name": "Shark Shooter Terrafin",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Earth",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/SharkShooterTerrafin2.png",
+      "swapper": false
+    },
+    {
+      "name": "Clown Cruiser",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/ClownCruiser.png",
+      "swapper": false
+    },
+    {
+      "name": "Barrel Blaster",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/BarrelBlaster.png",
+      "swapper": false
+    },
+    {
+      "name": "Turbo Charge Donkey Kong",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/TurboChargeDonkeyKong.png",
+      "swapper": false
+    },
+    {
+      "name": "Hammer Slam Bowser",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/HammerSlamBowser.png",
+      "swapper": false
+    },
+    {
+      "name": "Crypt Crusher",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/CryptCrusher.png",
+      "swapper": false
+    },
+    {
+      "name": "Fiesta",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Undead",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/Fiesta.png",
+      "swapper": false
+    },
+    {
+      "name": "Event Exclusive Hot Streak",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Variant",
+      "image": "SSC/E3ExclusiveHotStreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Sea Shadow",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Dark",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SeaShadow.png",
+      "swapper": false
+    },
+    {
+      "name": "Nightfall",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Dark",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/Nightfall.png",
+      "swapper": false
+    },
+    {
+      "name": "Jet Stream",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/JetStream.png",
+      "swapper": false
+    },
+    {
+      "name": "Hurricane Jet-Vac",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/HurricaneJetVac.png",
+      "swapper": false
+    },
+    {
+      "name": "Double Dare Trigger Happy",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Tech",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/DoubleDareTriggerHappy.png",
+      "swapper": false
+    },
+    {
+      "name": "Dive-Clops",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Water",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/DiveClops.png",
+      "swapper": false
+    },
+    {
+      "name": "Sky Slicer",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/SkySlicer.png",
+      "swapper": false
+    },
+    {
+      "name": "Hot Streak",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/HotStreak.png",
+      "swapper": false
+    },
+    {
+      "name": "Dive Bomber",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Water",
+      "type": "Vehicle",
+      "variant": "Standard",
+      "image": "SSC/DiveBomber.png",
+      "swapper": false
+    },
+    {
+      "name": "Super Shot Stealth Elf",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Life",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/SuperShotStealthElf.png",
+      "swapper": false
+    },
+    {
+      "name": "Stormblade",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Air",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/StormBlade.png",
+      "swapper": false
+    },
+    {
+      "name": "SuperChargers Figures",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": null,
+      "type": "Skylander",
+      "variant": "Standard",
+      "image": "SSC/PowerBlueSplatterSplasher.png",
+      "swapper": false
+    },
+    {
+      "name": "Spitfire",
+      "details": "",
+      "edition": "Super Chargers",
+      "element": "Fire",
+      "type": "SuperCharger",
+      "variant": "Standard",
+      "image": "SSC/SpitFire.png",
+      "swapper": false
+    },
+    {
+      "name": "CYOS 3D Printed Figure",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/CYOS_3D_Printed_Figure.jpg",
+      "swapper": false
+    },
+    {
+      "name": "CYOS Card",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/CYOS_Card.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Tech Pyramid Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/Tech_Pyramid_Creation_Crystal.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Light Angel Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/Light_Angel_Creation_Crystal.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Earth Rune Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/Earth_Rune_Creation_Crystal.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Fire Angel Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/Fire_Angel_Creation_Crystal.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Air Acorn Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/Air_Acorn_Creation_Crystal.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Happy Birthday Ben Starcast",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/Happy_Birthday_Ben_Starcast.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Heartbreaker Buckshot",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/Heartbreaker_Buckshot_Unreleased.jpg",
+      "swapper": false
+    },
+    {
+      "name": "Blue Chest (LIM)",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/BlueChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Blue Chest (CTT)",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/BlueChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Reactor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/DarkReactorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Fanged Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/WaterFangedCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Rock Candy Pain-Yatta",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/RockCandyPainyattaTemp.png",
+      "swapper": false
+    },
+    {
+      "name": "Dec-Ember",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/DecEmberTemp.png",
+      "swapper": false
+    },
+    {
+      "name": "Orange Chain Reaction",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/OrangeChainReaction.png",
+      "swapper": false
+    },
+    {
+      "name": "Enchanted Elven Forest",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SI/EnchantedElvenForest.png",
+      "swapper": false
+    },
+    {
+      "name": "Hard-Boiled Flarewolf",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/HardBoiledFlareWolf_Actual.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Light Fanged Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Creation Crystal",
+      "variant": "Variant",
+      "image": "SI/LegendaryLightFanged.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Life Acorn Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Creation Crystal",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Legendary Magic Lantern Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Creation Crystal",
+      "variant": "Variant",
+      "image": "SI/LegendaryMagicLantern.png",
+      "swapper": false
+    },
+    {
+      "name": "Gryphon Park Observatory",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Adventure Pack",
+      "variant": "Standard",
+      "image": "SI/GryphonParkObservatoryWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Gold Mystery Chest",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/GoldMysteryChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Silver Mystery Chest",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/SilverMysteryChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Bronze Mystery Chest",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Magic Item",
+      "variant": "Standard",
+      "image": "SI/BronzeMysteryChest.png",
+      "swapper": false
+    },
+    {
+      "name": "Jingle Bell Chompy Mage",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Egg Bomber Air Strike",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/EggBomberAirStrike_Actual.png",
+      "swapper": false
+    },
+    {
+      "name": "Solar Flare Aurora",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Mystical Bad Juju",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Water Armor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/WaterArmorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Lantern Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/UndeadLanternCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Light Rune Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LightRuneCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Claw Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LifeClawCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Armor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/EarthArmorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Pink Barbella",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/PinkBarbella.png",
+      "swapper": false
+    },
+    {
+      "name": "Water Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Undead Claw Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/UndeadClawCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Armor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/TechArmorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Claw Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/MagicClawCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Rocket Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LifeRocketCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Acorn Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/FireAcornCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Earth Rocket Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/EarthRocketCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Pyramid Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/DarkPyramidCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Lantern Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/AirLanternCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Clear Starcast",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/ClearStarcast.png",
+      "swapper": false
+    },
+    {
+      "name": "Tech Reactor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/TechReactorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Lantern Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/MagicLanternCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Acorn Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LifeAcornCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Mystical Tae Kwon Crow",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Water Rocket Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/WaterRocketCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Undead Fanged Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/UndeadFangedCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Magic Pyramid Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/MagicPyramidCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Light Fanged Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LightFangedCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Angel Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/AirAngelCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Steel Plated Hood Sickle",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/SteelPlatedHoodSickle.png",
+      "swapper": false
+    },
+    {
+      "name": "Candy-Coated Chopscotch",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/CandyCoatedChopscotch.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Pit Boss",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/LegendaryPitBoss.png",
+      "swapper": false
+    },
+    {
+      "name": "Legendary Tri-Tip",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/LegendaryTriTip.png",
+      "swapper": false
+    },
+    {
+      "name": "Blaster-Tron",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Bad Juju",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Wild Storm",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Tidepool",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Ro-Bow",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Chain Reaction",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Buckshot",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Pain-Yatta",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Dr. Neo Cortex",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Kaos",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/Kaos.png",
+      "swapper": false
+    },
+    {
+      "name": "Barbella",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/BarbellaFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Tae Kwon Crow",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/TaeKwonCrowFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Grave Clobber",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/GraveClobber_Actual.png",
+      "swapper": false
+    },
+    {
+      "name": "Dr. Krankcase",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Tech",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/DrKrankCaseFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Chompy Mage",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/ChompyMage.png",
+      "swapper": false
+    },
+    {
+      "name": "Starcast",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/StarcastFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Pit Boss",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Mysticat",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Magic",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/MysticatFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Flarewolf",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Boom Bloom",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": null,
+      "swapper": false
+    },
+    {
+      "name": "Aurora",
+      "details": "",
+      "edition": "Imaginators",
+      "element": null,
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/AuroraTemp.png",
+      "swapper": false
+    },
+    {
+      "name": "Air Strike",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Air",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/AirStrike.png",
+      "swapper": false
+    },
+    {
+      "name": "Chopscotch",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/Chopscotch.png",
+      "swapper": false
+    },
+    {
+      "name": "Hood Sickle",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/HoodSickleTemp.png",
+      "swapper": false
+    },
+    {
+      "name": "Life Rune Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/LifeRuneCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Rune Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Dark",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/DarkRuneCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Golden Queen",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/DarkGoldenQueen.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark Wolfgang",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/DarkWolfgang.png",
+      "swapper": false
+    },
+    {
+      "name": "Dark King Pen",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Sensei",
+      "variant": "Variant",
+      "image": "SI/DarkKingPen.png",
+      "swapper": false
+    },
+    {
+      "name": "Wolfgang",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Undead",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/WolfgangFinal.png",
+      "swapper": false
+    },
+    {
+      "name": "Crash Bandicoot",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/CrashBandicoot.png",
+      "swapper": false
+    },
+    {
+      "name": "Ambush",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Life",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/AmbushLifeKnightSkylanders.png",
+      "swapper": false
+    },
+    {
+      "name": "Ember",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/EmberFireSentinel.png",
+      "swapper": false
+    },
+    {
+      "name": "Tri-Tip",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/TriTipFinal-1.png",
+      "swapper": false
+    },
+    {
+      "name": "Fire Reactor Creation Crystal",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Fire",
+      "type": "Creation Crystal",
+      "variant": "Standard",
+      "image": "SI/FireReactorCreationCrystalWM.png",
+      "swapper": false
+    },
+    {
+      "name": "Golden Queen",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Earth",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/GoldenQueenEdit.png",
+      "swapper": false
+    },
+    {
+      "name": "King Pen",
+      "details": "",
+      "edition": "Imaginators",
+      "element": "Water",
+      "type": "Sensei",
+      "variant": "Standard",
+      "image": "SI/KingPen.png",
+      "swapper": false
+    }
+  ]
+}

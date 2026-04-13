@@ -6,6 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 
 interface ItemCardProps {
     item: Item;
+    index?: number;
 }
 
 interface PatchRequest {
@@ -23,14 +24,14 @@ const patchCount = async (requestInfos: PatchRequest) => {
     return response
 }
 
-const typeColors: Record<ItemType, string> = {
+const typeClasses: Record<ItemType, string> = {
     "Skylander": "type-skylander",
     "Giant": "type-giant",
-    "Traptanium Crystal Trap": "type-traptanium-crystal-trap",
+    "Traptanium Crystal Trap": "type-trap",
     "Swapper": "type-swapper",
     "Vehicle": "type-vehicle",
     "Sensei": "type-sensei",
-    "Villain Sensei": "type-villain-sensei",
+    "Villain Sensei": "type-villain",
 }
 
 const elementIconMap: Record<string, string> = {
@@ -53,31 +54,69 @@ const editionLogoMap: Record<string, string> = {
     "Imaginators": "SI.png",
 }
 
-export function ItemCard(props: ItemCardProps) {
+export function ItemCard({ item, index = 0 }: ItemCardProps) {
     const { mutate } = useMutation({ mutationFn: patchCount });
-    const { item } = props;
-    const typeColor = typeColors[item.type.name as ItemType] || "";
+    const typeClass = typeClasses[item.type.name as ItemType] || "";
     const [itemCount, setItemCount] = useState(item.count);
+
     const updateCount = (count_add: number) => {
         mutate({ itemId: item.id, newCount: count_add })
         setItemCount(itemCount + count_add);
     }
-    return <>
-        <div className={`item-card ${typeColor}`}>
-            <Link to={`/item/${item.id}`} className="item-card-top">
-                <img src={`/assets/icons/${elementIconMap[item.element.name]}`} className="skylander-element" />
-                <h1 className="skylander-name">{item.name}</h1>
-                <div className="shadow">
-                    <img src={`/assets/${item.image}`} className="skylander-img" />
+
+    return (
+        <div
+            className={`card ${typeClass}`}
+            style={{ '--card-index': index } as React.CSSProperties}
+        >
+            <div className="card-type-bar" />
+            <Link to={`/item/${item.id}`} className="card-body">
+                <div className="card-header">
+                    {item.element && elementIconMap[item.element.name] && (
+                        <img
+                            src={`/assets/icons/${elementIconMap[item.element.name]}`}
+                            alt={item.element.name}
+                            className="card-element-icon"
+                        />
+                    )}
+                    <div className="card-info">
+                        <h3 className="card-name">{item.name}</h3>
+                        <span className="card-variant">{item.variant.name}</span>
+                    </div>
                 </div>
-                <p className="skylander-variant">{item.variant.name}</p>
+                <div className="card-image-wrap">
+                    <div className="card-image-glow" />
+                    {item.image && (
+                        <img
+                            src={`/assets/${item.image}`}
+                            alt={item.name}
+                            className="card-image"
+                        />
+                    )}
+                </div>
             </Link>
-            <div className="item-card-bottom">
-                <button className="skylander-count-plus" onClick={() => updateCount(1)}>+</button>
-                <p className="skylander-count">{itemCount}</p>
-                <button className="skylander-count-minus" onClick={() => updateCount(-1)}>-</button>
-                <img src={`/assets/logos/${editionLogoMap[item.edition.name]}`} width={300} height={200} className="skylander-edition" />
+            <div className="card-footer">
+                <div className="card-count-controls">
+                    <button className="count-btn count-minus" onClick={() => updateCount(-1)}>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                            <path d="M5 12h14" />
+                        </svg>
+                    </button>
+                    <span className={`count-value ${itemCount > 0 ? "has-items" : ""}`}>
+                        {itemCount}
+                    </span>
+                    <button className="count-btn count-plus" onClick={() => updateCount(1)}>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                            <path d="M12 5v14M5 12h14" />
+                        </svg>
+                    </button>
+                </div>
+                <img
+                    src={`/assets/logos/${editionLogoMap[item.edition.name]}`}
+                    alt={item.edition.name}
+                    className="card-edition-logo"
+                />
             </div>
         </div>
-    </>
+    );
 }

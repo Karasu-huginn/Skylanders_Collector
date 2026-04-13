@@ -38,7 +38,7 @@ export interface Item {
     count: number;
     price: number;
     variant: VariantResponse;
-    element: ElementResponse;
+    element: ElementResponse | null;
     swapper: boolean;
     bot_count?: number;
     top_count?: number;

@@ -10,7 +10,7 @@ done
 echo "API is ready."
 
 # Check if data already exists
-ITEM_COUNT=$(curl -sf "$API_URL/items/" | python -c "import sys,json; print(len(json.load(sys.stdin).get('items',[])))" 2>/dev/null || echo "0")
+ITEM_COUNT=$(curl -sf "$API_URL/items" | python -c "import sys,json; print(len(json.load(sys.stdin).get('items',[])))" 2>/dev/null || echo "0")
 
 if [ "$ITEM_COUNT" -gt "0" ]; then
   echo "Database already has $ITEM_COUNT items. Skipping seed."

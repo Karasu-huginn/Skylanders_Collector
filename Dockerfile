@@ -15,13 +15,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends libpq-dev curl 
 
 # Install Python dependencies
 COPY fastapi/pyproject.toml ./
-RUN pip install --no-cache-dir .
+RUN pip install --no-cache-dir . requests
 
 # Copy backend code
 COPY fastapi/ ./
 
 # Copy seed script and data (used by seed container)
-COPY db_maker.py skylanders_data.json ./
+COPY db_maker.py skylanders_data.json seed.sh ./
 
 # Copy built frontend into static/
 COPY --from=frontend /build/dist ./static

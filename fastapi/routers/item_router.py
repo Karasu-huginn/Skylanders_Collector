@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import and_
 from sqlalchemy.orm import Session, joinedload
 from starlette import status
-from typing import Annotated
+from typing import Annotated, Optional
 
 from models.item_model import Item
 from base_models import ItemBase, ItemResponse, ItemsListResponse
@@ -87,14 +87,14 @@ def update_item(
     db: db_dep,
     item_id: int,
     count_add: int = 0,
-    price: int = 0,
+    price: Optional[int] = None,
     details: str = "",
     bot_count_add: int = 0,
     top_count_add: int = 0,
 ):
     if bot_count_add or top_count_add:
         update_dict = {
-            "price": price if price else Item.price,
+            "price": price if price is not None else Item.price,
             "details": details if details else Item.details,
             "top_count": Item.top_count + top_count_add,
             "bot_count": Item.bot_count + bot_count_add,
@@ -102,7 +102,7 @@ def update_item(
     else:
         update_dict = {
             "count": Item.count + count_add,
-            "price": price if price else Item.price,
+            "price": price if price is not None else Item.price,
             "details": details if details else Item.details,
         }
     try:

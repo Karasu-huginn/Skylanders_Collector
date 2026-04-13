@@ -1,7 +1,7 @@
 import type { Item } from "./types";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { useParams, Link } from "react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./ItemDetails.css";
 
 const elementIconMap: Record<string, string> = {
@@ -24,6 +24,19 @@ const editionLogoMap: Record<string, string> = {
     "Imaginators": "SI.png",
 }
 
+const centsToEuros = (cents: number): string => {
+    if (cents === 0) return "";
+    return (cents / 100).toFixed(2).replace(".", ",");
+};
+
+const eurosToCents = (value: string): number | null => {
+    const trimmed = value.trim();
+    if (trimmed === "") return 0;
+    const parsed = parseFloat(trimmed.replace(",", "."));
+    if (isNaN(parsed) || parsed < 0) return null;
+    return Math.round(parsed * 100);
+};
+
 interface PatchRequest {
     itemId: number;
     newCount: number;
@@ -39,6 +52,16 @@ const patchCount = async (requestInfos: PatchRequest) => {
     return response
 }
 
+const patchPrice = async (params: { itemId: number; price: number }) => {
+    const response = await fetch(`/api/items/${params.itemId}?price=${params.price}`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        },
+    });
+    return response;
+};
+
 export function ItemDetails() {
     const { item_id } = useParams();
     const { isLoading, isError, error, data } = useQuery<Item>({
@@ -53,12 +76,39 @@ export function ItemDetails() {
     const { mutate } = useMutation({ mutationFn: patchCount });
     const [itemCount, setItemCount] = useState<number | null>(null);
     const displayCount = itemCount ?? data?.count ?? 0;
+    const [priceInput, setPriceInput] = useState<string>("");
+    const [priceSaved, setPriceSaved] = useState(false);
+
+    useEffect(() => {
+        if (data) {
+            setPriceInput(centsToEuros(data.price));
+        }
+    }, [data]);
+
+    const { mutate: mutatePrice } = useMutation({
+        mutationFn: patchPrice,
+        onSuccess: () => {
+            setPriceSaved(true);
+            setTimeout(() => setPriceSaved(false), 1000);
+        },
+    });
 
     const updateCount = (count_add: number) => {
         if (!data) return;
         mutate({ itemId: data.id, newCount: count_add });
         setItemCount(displayCount + count_add);
     }
+
+    const savePrice = () => {
+        if (!data) return;
+        const cents = eurosToCents(priceInput);
+        if (cents === null) {
+            // Invalid input — revert
+            setPriceInput(centsToEuros(data.price));
+            return;
+        }
+        mutatePrice({ itemId: data.id, price: cents });
+    };
 
     if (isLoading) {
         return <div className="detail-page container"><div className="loading-state">Chargement...</div></div>;
@@ -123,12 +173,26 @@ export function ItemDetails() {
                             <span className="detail-meta-label">Édition</span>
                             <span className="detail-meta-value">{data.edition.name}</span>
                         </div>
-                        {data.price > 0 && (
-                            <div className="detail-meta-item">
-                                <span className="detail-meta-label">Prix</span>
-                                <span className="detail-meta-value">{data.price} €</span>
+                        <div className={`detail-meta-item detail-price-tile${priceSaved ? " detail-price-saved" : ""}`}>
+                            <span className="detail-meta-label">Prix</span>
+                            <div className="detail-price-input-wrap">
+                                <input
+                                    type="text"
+                                    inputMode="decimal"
+                                    className="detail-price-input"
+                                    value={priceInput}
+                                    placeholder="0,00"
+                                    onChange={(e) => setPriceInput(e.target.value)}
+                                    onBlur={savePrice}
+                                    onKeyDown={(e) => {
+                                        if (e.key === "Enter") {
+                                            e.currentTarget.blur();
+                                        }
+                                    }}
+                                />
+                                <span className="detail-price-suffix">€</span>
                             </div>
-                        )}
+                        </div>
                     </div>
 
                     <div className="detail-count-section">

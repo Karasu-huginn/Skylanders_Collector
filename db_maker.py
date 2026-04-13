@@ -1,7 +1,8 @@
 import json
+import os
 import requests
 
-DB_URL = "http://localhost:8001/api"
+DB_URL = os.getenv("API_URL", "http://localhost:8001/api")
 
 
 def load_data():

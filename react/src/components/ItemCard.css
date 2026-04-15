@@ -1,0 +1,248 @@
+/* === CARD === */
+.card {
+  --type-color: var(--accent);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  animation: fadeInUp 0.5s ease both;
+  animation-delay: calc(var(--card-index, 0) * 50ms);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg), 0 0 40px color-mix(in srgb, var(--type-color) 15%, transparent);
+  border-color: color-mix(in srgb, var(--type-color) 30%, transparent);
+}
+
+/* Type accent bar */
+.card-type-bar {
+  height: 3px;
+  background: var(--type-color);
+}
+
+/* Card body (clickable link) */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem 0;
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+}
+
+.card-body:hover {
+  color: inherit;
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.card-element-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  filter: brightness(0.9);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.card-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-variant {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Image area */
+.card-image-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  min-height: 200px;
+}
+
+.card-image-glow {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--type-color) 12%, transparent), transparent 70%);
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+.card-image {
+  position: relative;
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  transition: transform var(--transition-base);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+}
+
+.card:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+  background: color-mix(in srgb, var(--bg-base) 50%, var(--bg-surface));
+}
+
+/* Count controls */
+.card-count-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.count-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--border-visible);
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.count-btn:hover {
+  background: var(--bg-surface-hover);
+  color: var(--text-primary);
+}
+
+.count-plus:hover {
+  border-color: var(--type-sensei);
+  color: var(--type-sensei);
+}
+
+.count-minus:hover {
+  border-color: var(--type-villain);
+  color: var(--type-villain);
+}
+
+.count-value {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-width: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.count-value.has-items {
+  color: var(--type-color);
+}
+
+/* Edition logo */
+.card-edition-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.6;
+  transition: opacity var(--transition-fast);
+}
+
+.card:hover .card-edition-logo {
+  opacity: 0.85;
+}
+
+/* Type color classes */
+.type-skylander { --type-color: var(--type-skylander); }
+.type-giant { --type-color: var(--type-giant); }
+.type-trap { --type-color: var(--type-trap); }
+.type-swapper { --type-color: var(--type-swapper); }
+.type-vehicle { --type-color: var(--type-vehicle); }
+.type-sensei { --type-color: var(--type-sensei); }
+.type-villain { --type-color: var(--type-villain); }
+
+/* Responsive */
+@media (max-width: 480px) {
+  .card-body {
+    padding: 0.75rem 1rem 0;
+  }
+
+  .card-element-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .card-name {
+    font-size: 0.95rem;
+  }
+
+  .card-variant {
+    font-size: 0.7rem;
+  }
+
+  .card-image-wrap {
+    min-height: 130px;
+    padding: 0.5rem 0;
+  }
+
+  .card-image {
+    max-height: 130px;
+  }
+
+  .card-footer {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .count-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .count-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .count-value {
+    font-size: 1rem;
+    min-width: 1.5rem;
+  }
+
+  .card-count-controls {
+    gap: 0.35rem;
+  }
+
+  .card-edition-logo {
+    height: 28px;
+  }
+}

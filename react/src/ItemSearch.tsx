@@ -1,7 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
+import { Link } from "react-router";
 import { ItemCard } from "./components/ItemCard";
 import type { ItemsListResponse } from "./types";
+import "./ItemSearch.css";
 
 export function ItemSearch() {
     const [search, setSearch] = useState("");
@@ -12,7 +14,7 @@ export function ItemSearch() {
     const { isLoading, isError, error, data, refetch } = useQuery<ItemsListResponse>({
         queryKey: ['item_search', search, page, isCaptured, isUncaptured, isDuplicate],
         queryFn: async () => {
-            const res = await fetch(`/api/items?search=${search}&page=${page}&is_captured=${isCaptured}&is_uncaptured=${isUncaptured}&is_duplicate=${isDuplicate}`);
+            const res = await fetch(`/api/items?search=${search}&page=${page}&limit=12&is_captured=${isCaptured}&is_uncaptured=${isUncaptured}&is_duplicate=${isDuplicate}`);
             if (!res.ok) throw new Error("Network response was not ok");
             return res.json();
         },
@@ -36,43 +38,96 @@ export function ItemSearch() {
         setPage(1);
     }
 
-    return <>
-        <form onSubmit={handleSearch} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <span>
-                <label htmlFor="search">Nom de la figurine : </label>
-                <input id="search" name="search" type="text" placeholder="Nom de la figurine..." value={search} onChange={(e) => setSearch(e.target.value)} />
-            </span>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <span>
-                    <input type="checkbox" name="is_captured" checked={isCaptured} onChange={() => filterCount(!isCaptured, false, false)} />
-                    <label htmlFor="search">Capturés</label>
-                </span>
-                <span>
-                    <input type="checkbox" name="is_uncaptured" checked={isUncaptured} onChange={() => filterCount(false, !isUncaptured, false)} />
-                    <label htmlFor="search">À capturer</label>
-                </span>
-                <span>
-                    <input type="checkbox" name="is_duplicate" checked={isDuplicate} onChange={() => filterCount(false, false, !isDuplicate)} />
-                    <label htmlFor="search">Doublons</label>
-                </span>
+    return (
+        <div className="search-page container">
+            <div className="search-header">
+                <Link to="/" className="search-back">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                </Link>
+                <h1 className="search-page-title">Collection</h1>
             </div>
-            <button type="submit">Rechercher</button>
-        </form>
 
-        {isLoading && <div>Chargement...</div>}
-        {isError && <div>Erreur : {(error as Error).message}</div>}
-        {data && (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "1rem" }}>
-                {data.items.length > 0 ? (
-                    data.items.map((result) => (
-                        <ItemCard key={result.id} item={result} />
-                    ))
-                ) : (
-                    <h3>Aucun résultat trouvé. Essayez d'ajuster vos critères de recherche.</h3>
-                )}
-            </div>
-        )}
-        {page > 1 && <button onClick={() => changePage(-1)}>Page Précédente</button>}
-        {data && data.items.length == 10 && <button onClick={() => changePage(1)}>Page Suivante</button>}
-    </>
+            <form onSubmit={handleSearch} className="search-controls">
+                <div className="search-input-wrap">
+                    <svg className="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.3-4.3" />
+                    </svg>
+                    <input
+                        type="text"
+                        placeholder="Rechercher un Skylander..."
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
+                </div>
+                <div className="search-filters">
+                    <button
+                        type="button"
+                        className={`filter-chip ${isCaptured ? "active" : ""}`}
+                        onClick={() => filterCount(!isCaptured, false, false)}
+                    >
+                        <span className="filter-chip-dot" />
+                        Capturés
+                    </button>
+                    <button
+                        type="button"
+                        className={`filter-chip ${isUncaptured ? "active" : ""}`}
+                        onClick={() => filterCount(false, !isUncaptured, false)}
+                    >
+                        <span className="filter-chip-dot" />
+                        À capturer
+                    </button>
+                    <button
+                        type="button"
+                        className={`filter-chip ${isDuplicate ? "active" : ""}`}
+                        onClick={() => filterCount(false, false, !isDuplicate)}
+                    >
+                        <span className="filter-chip-dot" />
+                        Doublons
+                    </button>
+                </div>
+            </form>
+
+            {isLoading && <div className="loading-state">Chargement...</div>}
+            {isError && <div className="error-state">Erreur : {(error as Error).message}</div>}
+            {data && (
+                <div className="results-grid">
+                    {data.items.length > 0 ? (
+                        data.items.map((result, index) => (
+                            <ItemCard key={result.id} item={result} index={index} />
+                        ))
+                    ) : (
+                        <div className="results-empty">
+                            <h3>Aucun résultat trouvé</h3>
+                            <p>Essayez d'ajuster vos critères de recherche.</p>
+                        </div>
+                    )}
+                </div>
+            )}
+
+            {data && (page > 1 || data.items.length === 12) && (
+                <div className="pagination">
+                    {page > 1 && (
+                        <button className="pagination-btn" onClick={() => changePage(-1)}>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M19 12H5M12 19l-7-7 7-7" />
+                            </svg>
+                            Précédent
+                        </button>
+                    )}
+                    <span className="pagination-page">Page {page}</span>
+                    {data.items.length === 12 && (
+                        <button className="pagination-btn" onClick={() => changePage(1)}>
+                            Suivant
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    )}
+                </div>
+            )}
+        </div>
+    );
 }

@@ -22,6 +22,7 @@ COPY fastapi/ ./
 
 # Copy seed script and data (used by seed container)
 COPY db_maker.py skylanders_data.json seed.sh ./
+RUN sed -i 's/\r$//' seed.sh && chmod +x seed.sh
 
 # Copy built frontend into static/
 COPY --from=frontend /build/dist ./static
